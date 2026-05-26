@@ -546,7 +546,7 @@
           </div>
           <div class="col-12 text-center mt-5">
           <div class="button-bottom ">
-       <a href="contact.php">Get in Touch Today!</a>
+       <a href="contact-us.php">Get in Touch Today!</a>
        </div>
           </div>
     </div>

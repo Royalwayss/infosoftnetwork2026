@@ -117,7 +117,7 @@
                     just exist online, but
                     thrive. </p>
                 <!-- <p>Design very few <strong>companies</strong> in the world have ventured on a project of such tremendous scope and complex</p> -->
-                <div class="custom-link wow fadeIn"> <a href="about.php">
+                <div class="custom-link wow fadeIn"> <a href="about-us.php">
                         <div class="lines"> <span></span> <span></span> </div>
                         <!-- end lines -->
                         <b>READ MORE</b>
@@ -547,7 +547,7 @@
         </ul> -->
 
 
-                <div class="custom-link wow fadeIn"> <a href="clients.php">
+                <div class="custom-link wow fadeIn"> <a href="our-clients.php">
                         <div class="lines"> <span></span> <span></span> </div>
 
                         <b>View More</b>
@@ -569,26 +569,26 @@
   </div> -->
     <!-- 
     <div class="owl-carousel owl-theme clients-carousel">
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-1.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-2.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-3.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-4.jpg"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-5.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-6.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-7.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-8.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-1.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-2.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-3.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-4.jpg"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-5.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-6.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-7.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-8.png"></a></div>
     </div>
 
 
     <div class="owl-carousel owl-carousel2 owl-theme">
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-9.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-10.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-11.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-12.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-13.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-14.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-15.png"></a></div>
-      <div class="item box"><a href="clients.php"><img alt="client logo" class="client-img" src="images/clients/client-16.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-9.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-10.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-11.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-12.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-13.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-14.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-15.png"></a></div>
+      <div class="item box"><a href="our-clients.php"><img alt="client logo" class="client-img" src="images/clients/client-16.png"></a></div>
     </div> -->
 
     <!-- <div class="row cliets-logo">
@@ -609,7 +609,7 @@
     <div class="col-md-2 col-lg-2 col-12 logo-c"><img src="images/clients/client-15.png" class="img-fluid"></div>
   </div> -->
     <!-- <div class="custom-link wow fadeIn d-flex justify-content-center text-center my-4">
-    <a href="clients.php">
+    <a href="our-clients.php">
       <div class="lines text-center">
         <span></span>
         <span></span>

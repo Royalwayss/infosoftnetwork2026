@@ -481,7 +481,7 @@
         </div>
         <div class="col-12 text-center mt-5">
             <div class="button-bottom ">
-                <a href="contact.php">I’m Interested</a>
+                <a href="contact-us.php">I’m Interested</a>
             </div>
         </div>
     </div>

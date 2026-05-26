@@ -1094,7 +1094,7 @@ We’re here to <strong>build growth engines</strong>.
         </div>
         <div class="col-12 text-center mt-5">
             <div class="button-bottom ">
-                <a href="contact.php">Contact Us</a>
+                <a href="contact-us.php">Contact Us</a>
             </div>
         </div>
     </div>

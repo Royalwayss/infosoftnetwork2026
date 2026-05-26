@@ -20,13 +20,13 @@
           </div>
           <div class="footer-sub-heading">
             <ul>
-              <li><a href="index.php">Home</a></li>
-              <li><a href="about.php">About us</a></li>
+              <li><a href="<?php echo SITE_URL; ?>">Home</a></li>
+              <li><a href="about-us.php">About us</a></li>
               <!-- <li><a href="services.php">Services</a></li> -->
-              <li><a href="portfolio.php">Portfolio</a></li>
-              <li><a href="clients.php">Clients</a></li>
+              <li><a href="our-portfolio.php">Portfolio</a></li>
+              <li><a href="our-clients.php">Clients</a></li>
               <!-- <li><a href="career.php">Career</a></li> -->
-              <li><a href="contact.php">Contact us</a></li>
+              <li><a href="contact-us.php">Contact us</a></li>
 
             </ul>
           </div>
@@ -87,19 +87,19 @@ Applications</a></li>
     <a href="index.php">Home</a>
   </div>
   <div class="col-12 col-md-3 col-lg-2 footer-heading">
-    <a href="about.php">About us</a>
+    <a href="about-us.php">About us</a>
   </div>
   <div class="col-12 col-md-3 col-lg-2 footer-heading">
     <a href="services.php">Services</a>
   </div>
   <div class="col-12 col-md-3 col-lg-2 footer-heading">
-    <a href="portfolio.php">Portfolio</a>
+    <a href="our-portfolio.php">Portfolio</a>
   </div>
   <div class="col-12 col-md-3 col-lg-2 footer-heading">
-    <a href="clients.php">Clients</a>
+    <a href="our-clients.php">Clients</a>
   </div>
   <div class="col-12 col-md-3 col-lg-2 footer-headings">
-    <a href="contact.php">Contact us</a>
+    <a href="contact-us.php">Contact us</a>
   </div>
 </div>
  

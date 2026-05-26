@@ -40,7 +40,7 @@
 			<!-- Nav Tabs List -->
 			<ul class="nav nav-tabs" id="myTab" role="tablist">
 				<li class="nav-item" role="presentation">
-					<a href="portfolio.php">
+					<a href="our-portfolio.php">
 						<button class="nav-link " id="web-tab" data-bs-toggle="tab" data-bs-target="#web" type="button"
 							role="tab" aria-controls="web" aria-selected="true">Corporate</button>
 					</a>

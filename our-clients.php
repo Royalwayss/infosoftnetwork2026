@@ -1,21 +1,5 @@
 <?php include 'include/header.php'; ?>
 
-<!-- <header class="page-header inner-pages-banner">
-  <div class="video-bg">
-    <img src="images/clients.jpg">
-  </div>
-
-  <div class="container">
-    <div class="banner-heading">
- 
-    </div>
-
-    <h2></h2>
-  </div>
-
-  <div class="scroll-down"><small>SCROLL DOWN</small><span></span></div>
- 
-</header> -->
 
 <section class="main-inner-banner">
 <div class="video-bg">
@@ -24,7 +8,7 @@
     </div>
 </section>
 
-
+<?php include('include/breadcrumb.php'); ?>
 <section class="clients">
   <div class="container">
     <div class="row">
@@ -246,7 +230,7 @@
             <li><a href="../nahar_ie/about.php">Nahar Industrial Enterprises Limited</a></li>
             <li><a href="../cotton-county/about.php">Cotton County Retail Limited</a></li>
             <li><a href="../spinning/about.php">Nahar Spinning Mills Limited</a></li>
-            <li><a href="about.php">Nahar Poly Films Limited</a></li>
+            <li><a href="about-us.php">Nahar Poly Films Limited</a></li>
             <li><a href="../nahar_cf/about.php">Nahar Capital & Financial Services Limited</a></li>
             <li><a href="../leasing_ltd/about.php">Oswal Leasing Limited </a></li>
             <li><a href="../kovalam/about.php">Kovalam Investment & Trading Company Ltd </a></li>
@@ -438,7 +422,7 @@
       <div id="about_button1">
         <div class="main">
           <div class="card-header">
-            <h5 class=""><a class="sidebar-link blue-color" href="about.php"> About Us </a></h5>
+            <h5 class=""><a class="sidebar-link blue-color" href="about-us.php"> About Us </a></h5>
           </div>
 
           <div class="card-header">
@@ -597,7 +581,7 @@
             </div>
           </div>
           <div class="card-header">
-            <h5 class=""><a class="sidebar-link blue-color" href="contact.php"> Contact Us </a></h5>
+            <h5 class=""><a class="sidebar-link blue-color" href="contact-us.php"> Contact Us </a></h5>
           </div>
 
         </div>

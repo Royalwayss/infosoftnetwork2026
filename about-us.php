@@ -11,20 +11,7 @@
     </div>
   </div>
 </header>
-<!-- 
-<header class="page-header inner-pages-banner">
-  <div class="video-bg">
-    <img src="images/clients.jpg">
-  </div>
-  <div class="container">
-    <div class="banner-heading">
-      <h1>Contact</h1>
-      <h1>us</h1>
-    </div>
-
-  </div>
-  <div class="scroll-down"><small>SCROLL DOWN</small><span></span></div>
-</header> -->
+<?php include('include/breadcrumb.php'); ?>
 <section class="intro  intro-2">
   <div class="container">
     <div class="row">
@@ -167,11 +154,11 @@
     <div class="row">
     <div class="col-12 col-md-12 col-lg-3 m-auto d-flex text-center justify-content-center">
       <div class="button-tagline text-center">
-          <a href="contact.php">
+          <a href="contact-us.php">
             <h6>Contact InfoSoft Network today!</h6></a>
         </div>
         <!-- <div class="button-bottom ">
-       <a href="contact.php">Get in Touch Today!</a>
+       <a href="contact-us.php">Get in Touch Today!</a>
        </div> -->
         <span class="call-to-action-two__arrow">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.49 76.07">

@@ -1,13 +1,72 @@
 <!doctype html>
+<?php 
+include('admin/include/config.php');
+$pageName = basename($_SERVER['PHP_SELF']);
+?>
 <html lang="en">
 <head>
+
+<!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJNBNMSH6P"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+ 
+
+  gtag('config', 'G-GJNBNMSH6P');
+
+</script>
+
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="format-detection" content="telephone=no">
 <meta name="theme-color" content="#ff5900"/>
 <meta name="HandheldFriendly" content="true" />
-<title>Infosoft </title>
+<meta property="og:site_name" content="Infosoft Network"/>
 
+
+<?php if($pageName == 'index.php') { ?>
+<title>Digital Marketing, SEO & Web Development Agency in Ludhiana, Punjab, India - Infosoft Network</title>
+<meta name="description" content="Infosoft Network is a premier digital marketing agency in Ludhiana, Punjab, India. We specialize in SEO, PPC, social media, web design, e commerce and mobile app development to help businesses grow online." />
+<meta name="keywords" content="digital marketing agency India, seo company ludhiana, web development India, online marketing agency punjab" />
+<?php }else if($pageName == 'about-us.php'){  ?>
+<title>About Infosoft Network - Digital Marketing Agency in Ludhiana, India</title>
+<meta name="description" content="Learn about Infosoft Network - a leading digital marketing and SEO agency based in Ludhiana, Punjab. Discover our mission, team and what makes us India's trusted growth partner." />
+<meta name="keywords" content="about infosoft network, digital agency ludhiana, seo agency punjab india, who is infosoft network, digital marketing team india" />
+<?php }else if($pageName == 'our-portfolio.php'){  ?>
+<title>Our Portfolio - Digital Marketing & Web Projects - Infosoft Network</title>
+<meta name="description" content="Explore Infosoft Network's portfolio of successful digital marketing, SEO and web development projects. See real results delivered for businesses across India and beyond." />
+<meta name="keywords" content="infosoft network portfolio, digital marketing case studies india, seo portfolio, web development work India, client projects Infosoft" />
+<?php }else if($pageName == 'out-clients.php'){  ?>
+<title>Our Clients - Trusted by Businesses Across India - Infosoft Network</title>
+<meta name="description" content="Infosoft Network is trusted by businesses across India and globally. Meet the brands we've helped grow with SEO, digital marketing and web solutions." />
+<meta name="keywords" content="infosoft network clients, digital marketing clients india, seo agency clients, trusted brands infosoft, business partners india" />
+<?php }else if($pageName == 'contact-us.php'){  ?>
+<title>Contact Infosoft Network - Digital Marketing Agency in Ludhiana, India</title>
+<meta name="description" content="Get in touch with Infosoft Network for SEO, SMO, digital marketing, web development, mobile development and more. Reach our Ludhiana office or connect online - we're ready to grow your business." />
+<meta name="keywords" content="contact infosoft network, digital agency contact ludhiana, seo company contact india, get in touch infosoft, digital marketing inquiry india"/>
+<?php }else if($pageName == 'testttttt'){  ?>
+<?php }else if($pageName == 'testttttt'){  ?>
+<?php }else if($pageName == 'testttttt'){  ?>
+<?php }else if($pageName == 'testttttt'){  ?>
+<?php }else if($pageName == 'testttttt'){  ?>
+<?php }else if($pageName == 'testttttt'){  ?>
+<?php }else if($pageName == 'testttttt'){  ?>
+<?php }else if($pageName == 'testttttt'){  ?>
+<?php }else if($pageName == 'testttttt'){  ?>
+<?php }else if($pageName == 'testttttt'){  ?>
+<?php }else if($pageName == 'testttttt'){  ?>
+<?php }else { ?>
+<title>Infosoft </title>
+<?php } ?>
 
 <!-- FAVICON FILES -->
 <link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
@@ -27,6 +86,67 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/services.css">
+<link rel="stylesheet" href="css/dev.css">
+
+
+<?php if($pageName == 'index.php' && SERVER == 'live') { ?>
+<script type="application/ld+json">
+
+{
+
+  "@context": "https://schema.org",
+
+  "@type": "Organization",
+
+  "@id": "https://www.infosoftnetwork.com/#organization",
+
+  "name": "Infosoft Network",
+
+  "url": "https://www.infosoftnetwork.com",
+
+  "logo": "https://www.infosoftnetwork.com/images/infosoft.png",
+
+  "contactPoint": {
+
+    "@type": "ContactPoint",
+
+    "telephone": "+91-98142-01323",
+
+    "contactType": "Customer Service",
+
+    "areaServed": "Worldwide",
+
+    "availableLanguage": "en"
+
+  },
+
+  "address": {
+
+    "@type": "PostalAddress",
+
+    "streetAddress": "Civil Lines",
+
+    "addressLocality": "Ludhiana",
+
+    "addressRegion": "Punjab",
+
+    "postalCode": "141001",
+
+    "addressCountry": "IN"
+
+  }
+
+}
+
+</script>
+
+<?php }?>
+
+
+
+
+
+
 </head>
 <body>
 <!-- <div class="preloader-new">
@@ -119,7 +239,7 @@
   <div class="inner">
    <div class="menu">
     <ul>
-      <li><a href="index.php">Home</a>
+      <li><a href="<?php echo SITE_URL; ?>">Home</a>
       	<!-- <ul>
       		<li><a href="index.html">Slider</a></li>
       		<li><a href="index-video.html">Video</a></li>
@@ -127,7 +247,7 @@
       		<li><a href="index-perspective.html">Perspective</a></li>
       	</ul> -->
       </li>
-      <li><a href="about.php">About us</a></li>
+      <li><a href="about-us.php">About us</a></li>
       <!-- <li><a href="Infosoft.html">web development</a>
         <ul>
       		<li><a href="#">Static/Dynamic Web Design</a></li>
@@ -143,9 +263,9 @@
       		<li><a href="mobile-app.php">Mobile Application</a></li>
       	</ul>
     </li>
-      <li><a href="portfolio.php">Portfolio</a></li>
-      <li><a href="clients.php">Clients</a></li>
-      <li><a href="contact.php">Contact</a></li>
+      <li><a href="our-portfolio.php">Portfolio</a></li>
+      <li><a href="our-clients.php">Clients</a></li>
+      <li><a href="contact-us.php">Contact</a></li>
     </ul>
     </div>
     <!-- end menu -->
@@ -161,7 +281,7 @@
   <!-- end left -->
 
   <div class="col-8 col-md-8 col-lg-6">
-  <div class="logo"> <a href="index.php"><img src="images/infosoft.png" alt="Image"></a> </div>
+  <div class="logo"> <a href="<?php echo SITE_URL; ?>"><img src="images/infosoft.png" alt="Digital Marketing Agency - SEO, SMO, PPC, Web Design, Web Development and Mobile App Development Company in Ludhiana" title="Digital Marketing Agency - SEO, SMO, PPC, Web Design, Web Development and Mobile App Development Company in Ludhiana"></a> </div>
 </div>
 <div class="col-4 col-md-4 col-lg-6 d-flex justify-content-end">
 
