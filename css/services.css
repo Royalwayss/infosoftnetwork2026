@@ -1,0 +1,137 @@
+.services-details-8-new .service-column-content {
+    background-color: #ff5900;
+    padding: 2rem;
+    border-radius: 25px;
+    height: 150px;
+}
+.new-services-6 .offer-one {
+    height: 300px;
+    width: 270px;
+    padding: 34px 20px 40px 20px;
+    position: relative;
+    border-radius: 5px;
+    background: #FFF;
+    z-index: 1;
+    overflow: hidden;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.new-services-details-points{
+    padding-left: 10px;
+}
+
+.infosoft-new-service-accordion-section{
+    position: relative;
+}
+
+.infosoft-new-service-accordion-heading{
+    text-align: center;
+}
+
+.infosoft-new-service-accordion-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.infosoft-new-service-accordion-subtitle{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.infosoft-new-service-accordion-main{
+    position: relative;
+}
+
+.infosoft-new-service-accordion-card{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.infosoft-new-service-accordion-header{
+    background: #fff;
+}
+
+.infosoft-new-service-accordion-btn{
+    text-decoration: none !important;
+    color: #000 !important;
+    box-shadow: none !important;
+}
+
+.infosoft-new-service-accordion-btn:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.infosoft-new-service-accordion-image img{
+    max-width: 60px;
+}
+
+.infosoft-new-service-accordion-content{
+    width: 100%;
+}
+
+.infosoft-new-service-accordion-text{
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.infosoft-new-service-accordion-highlight{
+    font-weight: 700;
+}
+
+.infosoft-new-service-accordion-body{
+    padding: 30px;
+}
+
+.infosoft-new-service-accordion-list{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.infosoft-new-service-accordion-list-item{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.infosoft-new-service-accordion-description{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.infosoft-new-service-accordion-btn{
+    text-decoration: none !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+/* Active Accordion Button */
+.infosoft-new-service-accordion-btn:not(.collapsed){
+    background: #03133c;
+    color: #fff !important;
+}
+
+/* Active Text */
+.infosoft-new-service-accordion-btn:not(.collapsed) 
+.infosoft-new-service-accordion-text{
+    color: #fff;
+}
+
+/* Active Highlight Text */
+.infosoft-new-service-accordion-btn:not(.collapsed) 
+.infosoft-new-service-accordion-highlight{
+    color: #fff;
+}
+
+/* Hover */
+.infosoft-new-service-accordion-btn:hover{
+    text-decoration: none;
+    color: #000;
+}
