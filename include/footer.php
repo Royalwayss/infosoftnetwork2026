@@ -37,13 +37,20 @@
           </div>
           <div class="footer-sub-heading">
             <ul>
-              <li><a href="digital.php">Digital
-Marketing</a></li>
-              <li><a href="website.php">Website
-Designing</a></li>
-              <li><a href="e-commerce.php">E-commerce</a></li>
-              <li><a href="mobile-app.php">Mobile
-Applications</a></li>
+                <li><a href="seo-services-in-india">Search Engine Optimization</a></li>
+                <li><a href="digital-marketing-services-in-india">Digital Marketing</a></li>
+                <li><a href="social-media-optimization-services-in-india">Social Media Optimization</a></li>
+                <li><a href="website-design-services-in-india">Website Design</a></li>
+                <li><a href="ppc-services-in-india">PPC & Google Ads</a></li>
+                <li><a href="website-development-services-in-india">Website Development</a></li>
+                <li><a href="ecommerce-development-services-in-india">E-Commerce Development</a></li>
+                <li><a href="mobile-app-development-services-in-india">Mobile App Development</a></li>
+                <li><a href="answer-engine-optimization-services-in-india">Answer Engine Optimization</a></li>
+                <li><a href="generative-engine-optimization-services-in-india">Generative Engine Optimization</a></li>
+                <li><a href="local-seo-services-in-india">Local SEO</a></li>
+                <li><a href="technical-seo-services-in-india">Technical SEO</a></li>
+                <li><a href="google-business-profile-optimization-services-in-india">Google Business Profile</a></li>
+                <li><a href="content-marketing-services-in-india">Content Marketing</a></li>
 
             </ul>
           </div>

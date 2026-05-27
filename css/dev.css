@@ -88,3 +88,11 @@
       font-size: 12px;
     }
   }
+  
+  /* SERVICE CSS  START*/
+  #service-detail h3 {
+    font-weight: 600;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+  /* SERVICE CSS  END*/

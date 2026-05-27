@@ -104,6 +104,16 @@
           <label><span>Your message</span></label>
           <textarea name="message" id="message" ></textarea>
         </div>
+		
+		
+		<div class="col-md-12 contact-input pl-0">
+                    
+                      <div style="" class="g-recaptcha" data-sitekey="6LdMDv8sAAAAACVBQ5JdacPIgDn4uEAsjC4g17zX" data-callback="recaptchaCallback" data-expired-callback="recaptchaExpired"></div>
+                  
+                    <input id="hidden-grecaptcha" name="hidden-grecaptcha" type="hidden"/>
+        </div>
+		
+		
         <!-- end form-group -->
         <div class="form-group col-12">
           <button id="submit" type="submit" name="submit">SUBMIT</button>
@@ -126,12 +136,9 @@
 <?php include 'include/footer.php'; ?>
 <script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript" src="js/additional-methods.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
-/*
-$.validator.addMethod('filesize', function (value, element, param) {
-    return this.optional(element) || (element.files[0].size <= param)
-}, 'File size must be less than {0}');
-*/
+
 jQuery(function ($) {
     "use strict";
     $('#contact').validate({
@@ -155,9 +162,9 @@ jQuery(function ($) {
 			message: {
                 required: true
             },
-		/*	"hidden-grecaptcha": {
+			"hidden-grecaptcha": {
               required: true,
-            }, */
+            }, 
 			
         },
 		messages: {
@@ -178,16 +185,16 @@ jQuery(function ($) {
 			  message: {
                 required: "Enter your message"
             },
-			/*"hidden-grecaptcha": {
+			"hidden-grecaptcha": {
 				required: "reCAPTCHA is mandatory."
-			} */
+			} 
           },
     });
 });
-/*
+
 function recaptchaCallback() {
 	    var response = grecaptcha.getResponse(),
 		$button = jQuery(".document-btn");
 		jQuery("#hidden-grecaptcha").val(response);
-} */
+} 
 </script>

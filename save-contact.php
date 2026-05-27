@@ -1,5 +1,5 @@
 <?php
-include('config.php');
+include('admin/include/config.php');
 $data = $_POST;
 $err = '';
 
@@ -49,11 +49,46 @@ if(isset($data['message']) && $data['message'] != ''){
 }
 
 
+
+if($_SERVER['HTTP_HOST'] != 'localhost'){
+if(!empty($_POST)){
+		$recaptcha_secret = '6LdMDv8sAAAAADy57vtvRaLAqLktTZEvW3vpNBt0';
+		$recaptcha_response = $_POST['g-recaptcha-response'];
+
+		$url = 'https://www.google.com/recaptcha/api/siteverify';
+		$res_data = [
+			'secret' => $recaptcha_secret,
+			'response' => $recaptcha_response
+		];
+
+		$options = [
+			'http' => [
+				'method' => 'POST',
+				'content' => http_build_query($res_data)
+			]
+		];
+
+		$context = stream_context_create($options);
+		$result = file_get_contents($url, false, $context);
+		$json = json_decode($result);
+
+		if ($json->success) {
+		  
+		} else { 
+		   	$err = 1;
+		} 
+   }
+   }
+
+
+
+
+
 if($err == ''){  
-/*
+
           $created_at = date('Y-m-d H:i:s');
           $sql = 'insert into contacts (first_name,last_name,phone,email,message,created_at) values ("'.$first_name.'","'.$last_name.'","'.$phone.'","'.$email.'","'.$message.'","'.$created_at.'")';
-          $conn->query($sql); */
+          $conn->query($sql); 
 
 $mail_message = "<html>
 			   <head>

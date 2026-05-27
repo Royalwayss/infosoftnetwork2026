@@ -1,16 +1,10 @@
 <?php include 'include/header.php'; ?>
-<style>
-#service-detail h3 {
-    font-weight: 600;
-	margin-top:15px;
-	margin-bottom:15px;
-}
-</style>
 <section class="main-inner-banner">
   <div class="video-bg">
     <img src="images/inner-banner-1.jpg">
   </div>
 </section>
+<?php include('include/breadcrumb.php'); ?>
 <section class="service-detail">
   <div class="container">
     <div class="row">

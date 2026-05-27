@@ -1,3 +1,17 @@
 RewriteEngine On
 
+ErrorDocument 404 /infosoftnetwork2026/404.php
 RewriteRule ^local-seo-services-in-india/?$ local-seo-services-in-india.php [L]
+RewriteRule ^technical-seo-services-in-india/?$ technical-seo-services-in-india.php [L]
+RewriteRule ^answer-engine-optimization-services-in-india/?$ answer-engine-optimization-services-in-india.php [L]
+RewriteRule ^generative-engine-optimization-services-in-india/?$ generative-engine-optimization-services-in-india.php [L]
+RewriteRule ^google-business-profile-optimization-services-in-india/?$ google-business-profile-optimization-services-in-india.php [L]
+RewriteRule ^digital-marketing-services-in-india/?$ digital-marketing-services-in-india.php [L]
+RewriteRule ^ppc-services-in-india/?$ ppc-services-in-india.php [L]
+RewriteRule ^social-media-optimization-services-in-india/?$ social-media-optimization-services-in-india.php [L]
+RewriteRule ^content-marketing-services-in-india/?$ content-marketing-services-in-india.php [L]
+RewriteRule ^website-design-services-in-india/?$ website-design-services-in-india.php [L]
+RewriteRule ^website-development-services-in-india/?$ website-development-services-in-india.php [L]
+RewriteRule ^ecommerce-development-services-in-india/?$ ecommerce-development-services-in-india.php [L]
+RewriteRule ^mobile-app-development-services-in-india/?$ mobile-app-development-services-in-india.php [L]
+RewriteRule ^seo-services-in-india/?$ seo-services-in-india.php [L]
