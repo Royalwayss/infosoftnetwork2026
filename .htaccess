@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^local-seo-services-in-india/?$ local-seo-services-in-india.php [L]
