@@ -157,7 +157,43 @@ $pageName = basename($_SERVER['PHP_SELF']);
     </script>
 
     <?php }?>
+    <style>
+      /* Submenu hidden and non-clickable by default */
+      #services-menus+ul {
+        display: none;
+        pointer-events: none;
+        /* blocks all clicks */
+      }
 
+      /* When active — show and enable clicks */
+      #services-menus+ul.open {
+        display: block;
+        pointer-events: auto;
+      }
+
+      /* Hide submenu by default - non-clickable */
+      #services-menus+ul {
+        display: none;
+        pointer-events: none;
+      }
+
+      /* Desktop - show on HOVER */
+      @media (min-width: 768px) {
+
+        .services-menu-list:hover .services-menu,
+        .services-menu-ul:hover .services-menu {
+          display: block;
+        }
+      }
+
+      /* Mobile - show on click via .open class */
+      @media (max-width: 767px) {
+        #services-menus+ul.open {
+          display: block;
+          pointer-events: auto;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -174,22 +210,22 @@ $pageName = basename($_SERVER['PHP_SELF']);
             </li>
             <li><a href="about-us.php">About us</a></li>
 
-            <li><a href="javascript:;">Services</a>
-              <ul>
-                <li><a href="seo-services-in-india">Search Engine Optimization</a></li>
-                <li><a href="digital-marketing-services-in-india">Digital Marketing</a></li>
-                <li><a href="social-media-optimization-services-in-india">Social Media Optimization</a></li>
-                <li><a href="website-design-services-in-india">Website Design</a></li>
-                <li><a href="ppc-services-in-india">PPC & Google Ads</a></li>
-                <li><a href="website-development-services-in-india">Website Development</a></li>
-                <li><a href="ecommerce-development-services-in-india">E-Commerce Development</a></li>
-                <li><a href="mobile-app-development-services-in-india">Mobile App Development</a></li>
-                <li><a href="answer-engine-optimization-services-in-india">Answer Engine Optimization</a></li>
-                <li><a href="generative-engine-optimization-services-in-india">Generative Engine Optimization</a></li>
-                <li><a href="local-seo-services-in-india">Local SEO</a></li>
-                <li><a href="technical-seo-services-in-india">Technical SEO</a></li>
-                <li><a href="google-business-profile-optimization-services-in-india">Google Business Profile</a></li>
-                <li><a href="content-marketing-services-in-india">Content Marketing</a></li>
+            <li id="services-menu-list"><a href="javascript:;" id="services-menus">Services</a>
+              <ul id="services-menu-ul">
+                <li><a class="services-menu" href="seo-services-in-india">Search Engine Optimization</a></li>
+                <li><a class="services-menu" href="digital-marketing-services-in-india">Digital Marketing</a></li>
+                <li><a class="services-menu" href="social-media-optimization-services-in-india">Social Media Optimization</a></li>
+                <li><a class="services-menu" href="website-design-services-in-india">Website Design</a></li>
+                <li><a class="services-menu" href="ppc-services-in-india">PPC & Google Ads</a></li>
+                <li><a class="services-menu" href="website-development-services-in-india">Website Development</a></li>
+                <li><a class="services-menu" href="ecommerce-development-services-in-india">E-Commerce Development</a></li>
+                <li><a class="services-menu" href="mobile-app-development-services-in-india">Mobile App Development</a></li>
+                <li><a class="services-menu" href="answer-engine-optimization-services-in-india">Answer Engine Optimization</a></li>
+                <li><a class="services-menu" href="generative-engine-optimization-services-in-india">Generative Engine Optimization</a></li>
+                <li><a class="services-menu" href="local-seo-services-in-india">Local SEO</a></li>
+                <li><a class="services-menu" href="technical-seo-services-in-india">Technical SEO</a></li>
+                <li><a class="services-menu" href="google-business-profile-optimization-services-in-india">Google Business Profile</a></li>
+                <li><a class="services-menu" href="content-marketing-services-in-india">Content Marketing</a></li>
               </ul>
             </li>
 

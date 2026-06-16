@@ -2,9 +2,9 @@
   <div class="footer-quote wow mb-0 fadeIn">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-3"> 
+        <div class="col-12 col-md-6 col-lg-3">
           <div class="footer-logo-sec">
-          <img class="footer-logo" src="images/infosoft.png" alt="Image">
+            <img class="footer-logo" src="images/infosoft.png" alt="Image">
           </div>
           <!-- <div class="social-meadia">
             <ul class="footer-ul">
@@ -37,20 +37,20 @@
           </div>
           <div class="footer-sub-heading">
             <ul>
-                <li><a href="seo-services-in-india">Search Engine Optimization</a></li>
-                <li><a href="digital-marketing-services-in-india">Digital Marketing</a></li>
-                <li><a href="social-media-optimization-services-in-india">Social Media Optimization</a></li>
-                <li><a href="website-design-services-in-india">Website Design</a></li>
-                <li><a href="ppc-services-in-india">PPC & Google Ads</a></li>
-                <li><a href="website-development-services-in-india">Website Development</a></li>
-                <li><a href="ecommerce-development-services-in-india">E-Commerce Development</a></li>
-                <li><a href="mobile-app-development-services-in-india">Mobile App Development</a></li>
-                <li><a href="answer-engine-optimization-services-in-india">Answer Engine Optimization</a></li>
-                <li><a href="generative-engine-optimization-services-in-india">Generative Engine Optimization</a></li>
-                <li><a href="local-seo-services-in-india">Local SEO</a></li>
-                <li><a href="technical-seo-services-in-india">Technical SEO</a></li>
-                <li><a href="google-business-profile-optimization-services-in-india">Google Business Profile</a></li>
-                <li><a href="content-marketing-services-in-india">Content Marketing</a></li>
+              <li><a href="seo-services-in-india">Search Engine Optimization</a></li>
+              <li><a href="digital-marketing-services-in-india">Digital Marketing</a></li>
+              <li><a href="social-media-optimization-services-in-india">Social Media Optimization</a></li>
+              <li><a href="website-design-services-in-india">Website Design</a></li>
+              <li><a href="ppc-services-in-india">PPC & Google Ads</a></li>
+              <li><a href="website-development-services-in-india">Website Development</a></li>
+              <li><a href="ecommerce-development-services-in-india">E-Commerce Development</a></li>
+              <li><a href="mobile-app-development-services-in-india">Mobile App Development</a></li>
+              <li><a href="answer-engine-optimization-services-in-india">Answer Engine Optimization</a></li>
+              <li><a href="generative-engine-optimization-services-in-india">Generative Engine Optimization</a></li>
+              <li><a href="local-seo-services-in-india">Local SEO</a></li>
+              <li><a href="technical-seo-services-in-india">Technical SEO</a></li>
+              <li><a href="google-business-profile-optimization-services-in-india">Google Business Profile</a></li>
+              <li><a href="content-marketing-services-in-india">Content Marketing</a></li>
 
             </ul>
           </div>
@@ -61,10 +61,10 @@
           </div>
           <div class="footer-sub-heading">
             <ul>
-            <li><i class="fa-solid fa-location-dot mr-2"></i>Ludhiana, Punjab</li>
+              <li><i class="fa-solid fa-location-dot mr-2"></i>Ludhiana, Punjab</li>
               <li><i class="fa-solid fa-envelope mr-2"></i><a href="mailto:info@infosoftnetwork.com" class="mail">info@infosoftnetwork.com</a></li>
               <li><i class="fa-solid fa-phone mr-2"></i><a href="tel:+91 98142 01323" class="call">+91 98142 01323</a></li>
-          
+
             </ul>
           </div>
         </div>
@@ -72,8 +72,6 @@
     </div>
 
   </div>
-
- 
 
 </footer>
 
@@ -156,7 +154,7 @@
 
 
 </footer> -->
-  <!-- <div class="footer-bottom wow fadeIn">
+<!-- <div class="footer-bottom wow fadeIn">
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
@@ -177,20 +175,32 @@
 <!-- end footer -->
 <!-- <audio id="hamburger-hover" src="audio/link.mp3" preload="auto"></audio> -->
 
-<!-- JS FILES --> 
+<!-- JS FILES -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="js/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/swiper.min.js"></script> 
-<script src="js/tilt.jquery.js"></script> 
-<script src="js/wow.min.js"></script> 
-<script src="js/odometer.min.js"></script> 
-<script src="js/jquery.typewriter.js"></script> 
-<script src="js/fancybox.min.js"></script> 
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/tilt.jquery.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/odometer.min.js"></script>
+<script src="js/jquery.typewriter.js"></script>
+<script src="js/fancybox.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/scripts.js"></script>
 <script>
   AOS.init();
+  $(document).ready(function() {
+    $('#services-menus').on('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $(this).next('ul').toggleClass('open');
+    });
+    // Close when clicking outside
+    $(document).on('click', function() {
+      $('#services-menus').next('ul').removeClass('open');
+    });
+  });
 </script>
 </body>
+
 </html>
