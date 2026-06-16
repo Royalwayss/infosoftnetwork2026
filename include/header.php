@@ -174,7 +174,7 @@ $pageName = basename($_SERVER['PHP_SELF']);
             </li>
             <li><a href="about-us.php">About us</a></li>
 
-            <li><a>Services</a>
+            <li><a href="javascript:;">Services</a>
               <ul>
                 <li><a href="seo-services-in-india">Search Engine Optimization</a></li>
                 <li><a href="digital-marketing-services-in-india">Digital Marketing</a></li>
