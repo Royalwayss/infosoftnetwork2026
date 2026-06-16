@@ -195,10 +195,8 @@
       e.stopPropagation();
       $(this).next('ul').toggleClass('open');
     });
-    // Close when clicking outside
-    $(document).on('click', function() {
-      $('#services-menus').next('ul').removeClass('open');
-    });
+   
+    
   });
 </script>
 </body>
