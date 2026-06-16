@@ -192,6 +192,8 @@ $pageName = basename($_SERVER['PHP_SELF']);
           display: block;
           pointer-events: auto;
         }
+		
+		
       }
     </style>
   </head>
@@ -211,7 +213,7 @@ $pageName = basename($_SERVER['PHP_SELF']);
             <li><a href="about-us.php">About us</a></li>
 
             <li id="services-menu-list"><a href="javascript:;" id="services-menus">Services</a>
-              <ul id="services-menu-ul">
+              <ul id="services-menu-ul" >
                 <li><a class="services-menu" href="seo-services-in-india">Search Engine Optimization</a></li>
                 <li><a class="services-menu" href="digital-marketing-services-in-india">Digital Marketing</a></li>
                 <li><a class="services-menu" href="social-media-optimization-services-in-india">Social Media Optimization</a></li>

@@ -196,7 +196,7 @@
       $(this).next('ul').toggleClass('open');
     });
    
-    
+ 
   });
 </script>
 </body>
